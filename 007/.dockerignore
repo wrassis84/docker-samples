@@ -1,0 +1,6 @@
+# This files/directories will be ignored by docker when building the image.
+# This will reduce image size by ignoring unnecessary files.
+node_modules
+build
+.dockerignore
+Dockerfile
