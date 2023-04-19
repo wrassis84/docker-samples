@@ -1,0 +1,34 @@
+--2023-04-18 23:53:18--  https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App
+Resolving aka.ms (aka.ms)... 69.192.20.112
+Connecting to aka.ms (aka.ms)|69.192.20.112|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://dotnet.microsoft.com/get-dotnet/dotnet-core?framework=Microsoft.NETCore.App [following]
+--2023-04-18 23:53:19--  https://dotnet.microsoft.com/get-dotnet/dotnet-core?framework=Microsoft.NETCore.App
+Resolving dotnet.microsoft.com (dotnet.microsoft.com)... 2620:1ec:4e:1::33, 2620:1ec:4f:1::33, 13.107.238.33, ...
+Connecting to dotnet.microsoft.com (dotnet.microsoft.com)|2620:1ec:4e:1::33|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://dotnet.microsoft.com/download/dotnet/?cid=getdotnetcore [following]
+--2023-04-18 23:53:20--  https://dotnet.microsoft.com/download/dotnet/?cid=getdotnetcore
+Reusing existing connection to [dotnet.microsoft.com]:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Cookie coming from dotnet.microsoft.com attempted to set domain to dotnetwebsite.azurewebsites.net
+Cookie coming from dotnet.microsoft.com attempted to set domain to dotnetwebsite.azurewebsites.net
+Location: /download/dotnet?cid=getdotnetcore [following]
+--2023-04-18 23:53:20--  https://dotnet.microsoft.com/download/dotnet?cid=getdotnetcore
+Reusing existing connection to [dotnet.microsoft.com]:443.
+HTTP request sent, awaiting response... 302 Found
+Cookie coming from dotnet.microsoft.com attempted to set domain to dotnetwebsite.azurewebsites.net
+Cookie coming from dotnet.microsoft.com attempted to set domain to dotnetwebsite.azurewebsites.net
+Location: /en-us/download/dotnet?cid=getdotnetcore [following]
+--2023-04-18 23:53:20--  https://dotnet.microsoft.com/en-us/download/dotnet?cid=getdotnetcore
+Reusing existing connection to [dotnet.microsoft.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from dotnet.microsoft.com attempted to set domain to dotnetwebsite.azurewebsites.net
+Cookie coming from dotnet.microsoft.com attempted to set domain to dotnetwebsite.azurewebsites.net
+Length: unspecified [text/html]
+Saving to: ‘dotnet-core-applaunch?framework=Microsoft.NETCore.App’
+
+            dotnet-core-     [<=>                               ]       0  --.-KB/s                          dotnet-core-a     [ <=>                              ] 144.13K   425KB/s               dotnet-core-applaunch?fr     [  <=>                             ] 191.91K   564KB/s    in 0.3s    
+
+2023-04-18 23:53:21 (564 KB/s) - ‘dotnet-core-applaunch?framework=Microsoft.NETCore.App’ saved [196520]
+
