@@ -1,5 +1,5 @@
 # Use a specific version of the Python image:
-FROM python
+FROM python:3.9
 
 # Set a working directory:
 WORKDIR /app
@@ -7,9 +7,11 @@ WORKDIR /app
 # Copy necessary files:
 COPY . /app
 
-# Update the System and install ffmpeg:
+# Update the System, install ffmpeg with a specific version, then clear cache:
 RUN apt-get update && \
-    apt-get install -y ffmpeg bb
+    apt-get install -y ffmpeg=7:4.1.6~deb10u1 bb=1.3rc1-13 \
+                    --no-install-recommends &&             \
+    rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies:
 RUN pip install --no-cache-dir -r requirements.txt
